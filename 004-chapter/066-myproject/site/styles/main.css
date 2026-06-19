@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #241505;
+color: #eae6d0;
+    /* background-size: cover; */
+     /* font-family: 'Inter', sans-serif; */
+} 
+
+.nav-link{
+    color: #eae6d0;
+}
+
+ 
+
+.nav-link:hover {
+    /* color: #b3d7a3; */
+    background-color: hwb(122 67% 20%); /* любой цвет */
+    color: #000; /* чтобы текст был читаемый */
+}
+
+.nav-link:focus,
+.nav-link.active {
+    background-color: #abcdac;
+    color: rgb(0, 0, 0);
+}
+
+.btn
+{
+    background-color: #846d33;
+    /* color: rgb(255, 255, 255); */
+   box-shadow: 0 8px 20px rgba(162, 150, 97, 0.15);
+   border: 1px solid #846d33;
+}
+
+.btn:hover
+{
+    background-color: #403417;
+    
+    box-shadow: 0 8px 20px rgba(180, 160, 73, 0.15);
+    border: 1px solid #403417;
+}
+
+#portfolio h2 {
+  color: #f5f0ede1;
+   letter-spacing: -1px;
+   font-weight: 500;
+   font-size: 2rem;
+ 
+}
+#marketing {
+ 
+   position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+#main
+{
+    min-height: 100vh;
+}
+
+ 
+#marketing img {
+     filter: brightness(0.6) saturate(0.7) contrast(1.1);
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+#marketing img::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(60, 35, 10, 0.18);
+}
+
+p {
+  color: #ece9d7;
+}
+
+::selection {
+  background: rgb(255, 224, 192);
+  color: rgb(118, 111, 94);
+}
+ a
+{
+    text-decoration: none;
+list-style-type: none;
+  color: #dfc00e;
+}
+
+ul{
+    font-size: 1.2rem;
+    list-style-type: none;
+    color: #eae6d0;
+}
